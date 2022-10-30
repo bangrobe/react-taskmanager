@@ -15,7 +15,7 @@ services:
       - ./:/app
       - /app/node_modules
     networks:
-      - npm
+      - nginxproxyman
 networks:
-  npm:
+  nginxproxyman:
     external: true
